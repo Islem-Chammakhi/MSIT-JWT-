@@ -44,7 +44,7 @@ git clone https://github.com/Islem-Chammakhi/MSIT-JWT.git
 ```
 ### 2. Backend
 ```bash
-cd api
+cd API
 npm install
 # Créer un fichier .env avec :
 # DATABASE_URL, RefreshToken, AccessToken,PORT
@@ -52,7 +52,7 @@ npx prisma migrate dev
 npm run dev
 ```
 ### 3. Frontend
-```bash
+```CLIENT
 cd client
 npm install
 npm run dev
